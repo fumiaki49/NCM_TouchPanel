@@ -1,0 +1,251 @@
+.example-titleBox {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.6em;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	width: fit-content;
+}
+
+/*.content-box {
+	margin-top: 5%;
+}*/
+
+.example-titleBox .company {
+	border-bottom: 3px solid #fff;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+}
+
+.example-titleBox .example {
+	font-size: 48px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+section.interview .description-title, section.company-info .description-title, section.about_example-system .description-title {
+	margin-bottom: 3%;
+}
+
+section.company-info .default-text, section.interview .default-text, section.interview .interview-text {
+	line-height: 1.6em;
+    font-size: 18px;
+}
+
+section.company-info .default-text br, section.interview .default-text br, section.interview .interview-text br {
+	content: "";
+	display: block;
+	margin: 25px 0;
+}
+
+/*会社概要*/
+.company-info {
+	margin-left: 15%;
+}
+
+.company-info .company-mainImage, .about_future .description-img {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.company-info .about-company {
+	margin-top: 3%;
+}
+
+.company-info .about-company .catch-text {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+
+
+/*会社沿革*/
+.table-wrapper {
+	position: relative;
+	width: 90%;
+	padding-bottom: 5%;
+}
+
+table.table_company-history {
+	width: 100%;
+    background-color: #ededed;
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 5%;
+}
+
+table.table_company-history br {
+    content: "";
+    display: block;
+    margin: 15px 0;
+}
+
+table.table_company-history th, table.table_company-history td {
+	border: 1px solid #000;
+}
+
+table.table_company-history th {
+	width: 20%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.table_company-history td {
+	padding: 20px 0;
+	padding-left: 20px;
+}
+
+table.table_company-history td .table_content-list {
+	margin-top: 15px;
+	padding-left: 1em;
+    text-indent: -1em;
+}
+
+table.table_company-history td .table_content-list li {
+	margin-top: 5px;
+}
+
+table.table_company-history td .table_content-list:first-child {
+	margin-top: 0;
+}
+
+table.table_company-history td .table_content-list li:first-child {
+	margin-top: 0;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.company-info .annotation {
+	float: right;
+	margin-top: 10px;
+}
+
+/*システム概要*/
+.about_example-system {
+	margin-right: 25%;
+}
+
+.about_example-system .introduction-movie {
+	margin-top: 3%;
+}
+
+.about_example-system .introduction-movie iframe {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+.about_example-system .details-box {
+	display: flex;
+	margin-top: 5%;
+}
+
+.about_example-system .details-box .list-item {
+	margin-right: 5%;
+	width: 45%;
+}
+
+.about_example-system .details-box .list-item .list-title {
+	font-size: 18px;
+}
+
+.about_example-system .details-box .list-item ul {
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-top: 2%;
+    line-height: 1.4em;
+	font-size: 16px;
+}
+
+.about_example-system .details-box .list-item ul li {
+	margin-bottom: 10px;
+}
+
+.about_example-system .details-box .list-item ul li:last-child {
+	margin-bottom: 0;
+}
+
+.about_example-system .details-box .details-image {
+	width: 50%;
+	position: relative;
+}
+
+.about_example-system .details-box .details-image figcaption {
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+    background: rgba(255,255,255,0.7);
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.about_example-system .system-images {
+	display: flex;
+}
+
+.about_example-system .system-images .system-image {
+	margin-top: 3%;
+	width: 50%;
+}
+
+.content-box.system-composition {
+	margin-top: 5%;
+}
+
+
+/*システム開発の背景*/
+.about_background {
+	margin-left: 10%;
+}
+
+.interview-contents {
+	display: flex;
+	margin-bottom: 5%;
+}
+
+.about_background .interview-contents p.interview-text {
+	width: 50%;
+}
+
+.interview-contents .interview-img {
+	width: 40%;
+	margin-right: 3%;
+}
+
+.interview-contents .interview-img.is-left {
+	margin-right: 3%;
+}
+
+.interview-contents .interview-img.is-right {
+	margin-left: 3%;
+}
+
+/*今後について*/
+.about_future {
+	margin-right: 25%;
+	margin-bottom: 10%;
+}
+
+.about_future .description-img {
+    width: 80%;
+}
+
+.about_future .interview-text {
+	margin-top: 3%;
+}
+
+.interview-text a {
+	color: #1B32D7;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+.interview-text a:hover {
+	opacity: 0.7;
+	color: #fff;
+	background-color: #1B32D7;
+	cursor: pointer;
+}

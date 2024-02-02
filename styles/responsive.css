@@ -1,0 +1,654 @@
+@media screen and (min-width: 1024px) {
+	.title {
+		padding-left: 15%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.title {
+		padding-left: 5%;
+	}
+	
+	.top-page_header {
+		padding-top: 15vh;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	/*トップページ*/
+	.top-page_header .site-title .small_top-img {
+		width: 30%;
+	}
+	
+	.top-page_header .big_top-img {
+		top: 35vh;
+		width: 90vw;
+	}
+	
+	
+	section.about-item {
+		padding: 3% 5% 5% 5%;
+		margin-left: 10%;
+	}
+	
+	.link-btn {
+		width: fit-content;
+	}
+	
+	.link-btn a {
+		float: unset;
+	}
+	
+	.example ul {
+		width: 80%;
+	}
+	
+	/*製品詳細ページ*/
+	.about_touch-panel .description-box {
+		display: block;
+	}
+	
+	.about_touch-panel .description-box .description-img {
+		margin-right: unset;
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	.description-title {
+		text-align: center;
+	}
+	
+	.about_touch-panel .description-box_wrapper:last-child {
+		margin-top: 3%;
+	}
+	
+	.about_touch-screen .description-box {
+		display: block;
+	}
+	
+	.about_touch-screen .description-box .touch-panel_image {
+		width: 70%;
+		margin: 0 auto;
+	}
+	
+	.system-img {
+		display: none;
+	}
+	
+	table.table_system-details {
+		margin-left: unset;
+	}
+	
+	.about_system .annotation {
+		line-height: 1.3em;
+	}
+	
+	/*事例詳細ページ*/
+	section.company-info .default-text, section.interview .default-text, section.interview .interview-text {
+		font-size: 16px;
+	}
+	
+	.example-titleBox {
+		font-size: 25px;
+		padding-left: 5%;
+	}
+	
+	.example-titleBox .example {
+		font-size: 35px;
+	}
+	
+	.company-info {
+		margin-left: 5%;
+	}
+	
+	.about_example-system {
+		margin-right: 10%;
+	}
+	
+	.about_example-system .introduction-movie {
+		max-width: unset;
+	}
+	
+	.about_example-system .details-box {
+		display: block;
+		margin-bottom: 10%;
+	}
+	
+	.about_example-system .details-box .list-item {
+		width: auto;
+		margin-right: unset;
+	}
+	
+	.about_example-system .details-box .details-image {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+	
+	.about_example-system .system-images {
+		display: block;
+	}
+	
+	.about_example-system .system-images .system-image {
+		width: 100%;
+	}
+	
+	.about_background {
+		margin-left: 5%;
+	}
+	
+	.interview-contents {
+		display: block;
+		margin-bottom: 15%;
+	}
+	
+	.interview-contents.reverse-direction {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+	.interview-contents .interview-img.is-left, .interview-contents .interview-img.is-right {
+		margin: 0 auto;
+	}
+	
+	.about_background .interview-contents p.interview-text {
+		width: 100%;
+	}
+	
+	p.interview-text {
+		width: 100%;
+	}
+	
+	.interview-contents .interview-img {
+		width: 70%;
+	}
+	
+	.description-title {
+		font-size: 30px;
+	}
+	
+	.make-blank {
+		margin-top: 3%;
+	}
+	
+	.about_future {
+		margin-right: 10%;
+	}
+	
+	/*事例一覧*/
+	.example-list {
+		display: block;
+	}
+	
+	.example-list li {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.pagination {
+		width: 50%;
+	}
+	
+	.pagination li {
+		width: 5vw;
+		height: 5vw;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.title span.item-name {
+		font-size: 42px;
+	}
+	
+	.top-page_header .site-title .small_top-img {
+		margin-right: -5%;
+	}
+	
+	.slide-show .splide__arrow--next {
+		right: -3em;
+	}
+
+	.slide-show .splide__arrow--prev {
+		left: -3em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 585px) {
+	.gloval-nav {
+		padding: 7px 3%;
+	}
+	
+	.gloval-nav .logo-img {
+		 width: 15%;
+	}
+	
+	.gloval-nav .list-item .item {
+		margin-right: 5px;
+		padding: 3px;
+	}
+	
+	.drop-down {
+		padding: 3px;
+	}
+	
+	.drop-down #button {
+		padding: unset;
+	}
+	
+	.drop-down ul {
+		right: 0;
+		padding-top: 10%;
+	}
+	
+	.drop-down ul a {
+		padding: 10px 10px 10px 5px;
+	}
+	
+	.drop-down, .list-item .item {
+		font-size: 12px;
+	}
+	
+	.top-page_header .site-title {
+		align-items: center;
+	}
+	
+	.top-page_header .site-title .small_top-img {
+		margin-right: -13vw;
+		width: 35vw;
+	}
+	
+	.top-page_header {
+		padding-top: 20%;
+		height: 45vh;
+		overflow: hidden;
+	}
+	
+	.small_top-img_phone {
+		top: 10%;
+		right: -60px;
+		display: none;
+	}
+	
+	.slide-show .splide__arrow {
+		width: 5%;
+	}
+	
+	.slide-show .splide__arrow--next {
+		right: -2em;
+	}
+
+	.slide-show .splide__arrow--prev {
+		left: -2em;
+	}
+	
+	.title {
+		font-size: 21px;
+	}
+	
+	.title span.title-label {
+		font-size: 16px;
+		padding: 0.5px 2px;
+		line-height: 21px;
+		vertical-align: middle;
+	}
+	
+	.title span.item-name {
+		font-size: 27px;
+	}
+	
+	.top-page_header .big_top-img {
+		top: 25vh;
+		width: 90vw;
+	}
+	
+	section.about-item {
+		margin-left: 5%;
+	}
+	
+	section.about-item .headline {
+		font-size: 21px;
+	}
+	
+	section.about-item {
+		font-size: 16px;
+		line-height: 1.3em;
+	}
+	
+	.link-btn {
+		font-size: 16px;
+	}
+	
+	.link-btn a::after {
+		bottom: 5px;
+	}
+	
+	section.example .section-title {
+		font-size: 28px;
+	}
+	
+	.example ul {
+		width: 90%;
+	}
+	
+	.example ul li .description {
+		padding: 10px;
+	}
+	
+	.example ul li .description .sub-title {
+		letter-spacing: -1px;
+	}
+	
+	.footer .footer-logo {
+		width: 20%;
+		margin-right: 5%;
+	}
+	
+	.footer ul.footer-contact {
+		font-size: 12px;
+	}
+	
+	.footer ul.footer-contact .contact-title {
+		font-size: 16px;
+	}
+	
+	/*製品詳細ページ*/
+	.page-title {
+		font-size: 30px;
+		padding: 0 0 3% 5%;
+	}
+	
+	span.sub-text {
+		font-size: 21px;
+	}
+	
+	.about_touch-panel {
+		margin-left: 5%;
+	}
+	
+	.description-box .text-box p {
+		font-size: 16px;
+		line-height: 1.6em;
+	}
+	
+	table.table_touch-panel {
+		font-size: 14px;
+		width: 130%;
+	}
+	
+	.table-wrapper:after {
+		content: "(上記の表は横スクロール可能です)";
+		display: block;
+		margin: 1% 0;
+		font-size: 14px;
+	}
+	
+	.description-title span {
+		font-size: 18px;
+	}
+	
+	table.annotation {
+		font-size: 14px;
+	}
+	
+	table.table_system-details {
+		font-size: 14px;
+	}
+	
+	table.table_system-details td {
+		padding-left: unset;
+		padding: 10px;
+	}
+	
+	.about_touch-screen {
+		margin-right: 5%;
+	}
+	
+	.about_system {
+		margin-left: 5%;
+	}
+	
+	.about_system .annotation {
+		margin-top: 5%;
+	}
+	
+	.about_system .description-box {
+		margin-top: 15px;
+	}
+	
+	
+	/*導入事例*/
+	.default-header {
+		padding-top: 20%;
+	}
+	
+	.example-titleBox {
+		font-size: 14px;
+	}
+	
+	.example-titleBox .example {
+		font-size: 18px;
+		margin-bottom: 3%;
+	}
+	
+	section {
+		padding: 5%;
+	}
+	
+	section.interview .description-title, section.company-info .description-title, section.about_example-system .description-title {
+    	margin-bottom: 5%;
+	}
+	
+	section.company-info .default-text, section.interview .default-text, section.interview .interview-text {
+		font-size: 14px;
+	}
+	
+	.company-info .company-mainImage {
+		width: 100%;
+	}
+	
+	.description-title {
+		font-size: 21px;
+		letter-spacing: -1px;
+	}
+	
+	.about-company_inner {
+		width: auto;
+	}
+	
+	.company-info .about-company .catch-text {
+		font-size: 16px;
+	}
+	
+	.about_example-system {
+		margin-right: 5%;
+	}
+	
+	.about_example-system .details-box .details-image {
+		width: 100%;
+	}
+	
+	.interview-contents .interview-img {
+		width: 100%;
+	}
+	
+	table.table_company-history {
+		font-size: 12px;
+	}
+	
+	table.table_company-history th {
+		width: 25%;
+	}
+	
+	table.table_company-history td {
+		padding-left: unset;
+		padding: 10px;
+	}
+	
+	.company-info .annotation {
+		font-size: 14px;
+	}
+	
+	.about_example-system .details-box .list-item .list-title {
+		font-size: 16px;
+	}
+	
+	.about_example-system .details-box .list-item ul {
+		font-size: 14px;
+	}
+	
+	.about_future {
+		margin-right: 5%;
+	}
+	
+	/*事例一覧*/
+	.example-list-page_inner {
+		width: 90%;
+	}
+	
+}
+
+@media screen and (max-width: 391px) {
+	.title span.item-name {
+		font-size: 24px;
+	}
+	
+	section.about-item {
+    	font-size: 14px;
+	}
+	
+	section.about-item .headline {
+		font-size: 18px;
+	}
+	
+	.link-btn {
+		font-size: 14px;
+	}
+	
+	.link-btn a::after {
+		width: 40px;
+		border-bottom: 2px solid #000;
+		border-right: 3px solid #000;
+		height: 10px;
+	}
+	
+	.example ul li .description {
+		font-size: 14px;
+	}
+	
+	.example .details-btn {
+		font-size: 14px;
+	}
+	
+	table.table_touch-panel {
+		width: 170%;
+	}
+	
+	/*事例一覧*/
+	.example-list li .description {
+		font-size: 14px;
+		padding: 10px;
+	}
+	
+	.example-list li .sub-title {
+		font-size: 16px;
+		letter-spacing: -1px;
+	}
+	
+	.example-list li .card-title {
+		font-size: 18px;
+	}
+	
+	.slide-show ul li .details-btn, .example-list li .details-btn {
+		font-size: 14px;
+	}
+	
+	/*事例詳細*/
+	.example-titleBox {
+		letter-spacing: -1px;
+	}	
+}
+
+@media screen and (max-width: 361px) {
+	.drop-down, .list-item .item {
+		letter-spacing: -1px;
+	}
+	
+	.gloval-nav {
+		padding: 7px 5px;
+	}
+	
+	.top-page_header .site-title .small_top-img {
+		margin-right: -17vw;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	/*トップページ*/
+	.gloval-nav .list-item .item {
+		margin-right: 3px;
+		padding: 2px;
+	}
+	
+	.drop-down {
+		padding: 2px;
+	}
+	
+	.top-page_header {
+		height: 60vh;
+	}
+	
+	.title {
+		font-size: 18px;
+	}
+	
+	.title span.title-label {
+		font-size: 14px;
+	}
+	
+	.title span.item-name {
+		font-size: 20px;
+	}
+	
+	.top-page_header .big_top-img {
+		top: 35%;
+	}
+	
+	.link-btn {
+		font-size: 12px;
+	}
+	
+	.example ul li .slide-title {
+		padding: 10px;
+		font-size: 18px;
+	}
+	
+	/*製品詳細ページ*/
+	.page-title {
+		font-size: 25px;
+	}
+	
+	span.sub-text {
+		font-size: 18px;
+	}
+	
+	
+	/*フッター*/
+	.footer .footer-inner {
+		display: block;
+	}
+	
+	.footer .footer-logo {
+		width: 25%;
+	}
+	
+	.footer ul.footer-contact {
+		margin-top: 15px;
+	}
+	
+	.footer ul.footer-contact .contact-title {
+		font-size: 14px;
+	}
+}

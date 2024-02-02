@@ -1,0 +1,139 @@
+/*タッチパネル*/
+.about_touch-panel {
+	margin-left: 10%;
+}
+
+.about_touch-panel .description-box_wrapper:last-child {
+	margin-top: 150px;
+}
+
+.about_touch-panel .description-box {
+	display: flex;
+}
+
+.about_touch-panel .description-box .description-img {
+	width: 80%;
+	margin-right: 3%;
+}
+
+.description-box .text-box {
+	font-size: 18px;
+}
+
+.description-title {
+	color: #224f99;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.description-title span {
+	font-size: 21px;
+	padding-top: -10px;
+}
+
+.description-box .text-box p {
+	line-height: 1.8em;
+	margin-top: 15px;
+}
+
+table.table_touch-panel {
+    width: 100%;
+    background-color: #ededed;
+    text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+table.table_touch-panel th {
+	text-align: center!important;
+}
+
+table.table_touch-panel th, table.table_touch-panel td, 
+table.table_system-details th, table.table_system-details td {
+	padding: 10px 0;
+	border: 1px solid #141414;
+}
+
+table.annotation {
+	margin-top: 5px;
+	float: right;
+}
+
+/*タッチスクリーン*/
+.about_touch-screen {
+	margin-right: 15%;
+}
+
+.about_touch-screen .description-box {
+	display: flex;
+	align-items: center;
+}
+
+.about_touch-screen .description-box .touch-panel_image {
+	width: 100%;
+	margin-left: 35px;
+}
+
+.description-box .text-box .description-title.for_screen {
+	margin-top: 40px;
+}
+
+.description-box .text-box .description-title.for_screen:first-child {
+	margin-top: 0;
+}
+
+/*タッチパネルのシステム構成*/
+.about_system {
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+.about_system .description-box {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 45px;
+}
+
+.system-img {
+	width: 70%;
+}
+
+table.table_system-details {
+	width: 100%;
+    background-color: #ededed;
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-left: 5%;
+}
+
+table.table_system-details ul {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+table.table_system-details br {
+    content: "";
+    display: block;
+    margin: 15px 0;
+}
+
+table.table_system-details th {
+	width: 30%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.table_system-details td {
+	padding: 20px 0;
+	padding-left: 20px;
+}
+
+.about_system .annotation {
+	float: unset;
+	margin-top: 35px;
+	line-height: 1.6em;
+}
+
+.about_system .link-btn {
+	padding-right: 5%;
+}

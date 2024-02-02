@@ -1,0 +1,74 @@
+@media screen and (max-width: 950px) {
+	.main-area .content-wrapper {
+		width: 80%;
+	}
+	
+	.form-section {
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+	}
+	
+	.contact-form dl .item-wrapp {
+		grid-template-columns: 1fr;
+		padding: 2vh 2vw;
+		grid-row-gap: 20px;
+	}
+	
+	.contact-form dl dt {
+		display: flex;
+	}
+	
+	.contact-form dl dt .require {
+		margin-left: 1vw;
+	}
+	
+	.contact-form dl dd {
+		margin-left: unset;
+	}
+	
+	.contact-form dl dd input.text-box {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.main-area .content-wrapper {
+		width: 90%;
+	}
+	
+	.page-title {
+		font-size: 24px;
+	}
+	
+	.drop-down ul {
+		right: 0;
+	}
+	
+	.title-text_box p, .contact-form input, .contact-form label, .contact-form textarea {
+		font-size: 14px;
+	}
+	
+	.contact-form dl dd input.text-box {
+		width: 100%;
+	}
+	
+	.contact-form .btn-box {
+		width: 100%;
+		column-gap: 3vw;
+	}
+	
+	.contact-form .btn-box.single {
+		width: 50%;
+	}
+	
+	.contact-form .btn-box.single .btn {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.contact-form dl dd .check-box {
+		padding-left: 1.5em;
+		text-indent: -1.5em;
+	}
+}

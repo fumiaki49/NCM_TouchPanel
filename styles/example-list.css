@@ -1,0 +1,87 @@
+.example-list-page_inner {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.example-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.example-list li {
+	width: 47%;
+	margin-right: 6%;
+	margin-bottom: 3%;
+	background-color: #fff;
+	text-align: center;
+}
+
+.example-list li:nth-child(even) {
+	margin-right: 0;
+}
+
+.example-list li iframe {
+	width: 100%;
+}
+
+.example-list li .card-title {
+    font-size: 21px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+.example-list li .description {
+	padding: 20px;
+	font-size: 18px;
+}
+
+.example-list li .sub-title {
+	font-weight: bold;
+}
+
+.example-list li .description p {
+	text-align: left;
+	font-size: 16px;
+	margin-top: 3%;
+}
+
+
+/*ページネーション*/
+.pagination {
+	display: table;
+	color: #fff;
+	font-size: 18px;
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 3% 0;
+}
+
+.pagination li {
+	width: 2vw;
+	height: 2vw;
+	display: table-cell;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	transition: all 0.3s;
+}
+
+.pagination li:hover {
+	background: rgb(255, 255, 255, 0.4);
+	cursor: pointer;
+}
+
+.pagination li.navi-active {
+	background-color: #fff;
+	color: #000;
+}
+
+.padination li.navi-active a {
+	user-select: none;
+}
+
+.pagination li a {
+	display: block;
+	width: 100%;
+}
